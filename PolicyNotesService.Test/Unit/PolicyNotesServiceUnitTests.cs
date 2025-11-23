@@ -3,7 +3,7 @@ using PolicyNotesService.Model;
 using PolicyNotesService.Repository;
 using PolicyNotesService.Sevices;
 
-namespace PolicyNotes.Test.Unit
+namespace PolicyNotesService.Test.Unit
 {
     public class PolicyNotesServiceUnitTests
     {

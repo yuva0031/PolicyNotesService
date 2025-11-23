@@ -7,7 +7,7 @@ using PolicyNotesService.Model;
 using System.Net;
 using System.Net.Http.Json;
 
-namespace PolicyNotes.Test.Integration
+namespace PolicyNotesService.Test.Integration
 {
     public class PolicyNotesServiceIntegrationTests : IClassFixture<WebApplicationFactory<Program>>
     {
