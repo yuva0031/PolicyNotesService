@@ -1,3 +1,25 @@
-.vs/ 
-bin/ 
-obj/ 
+@"
+# Visual Studio / .NET
+.vs/
+*.user
+*.rsuser
+*.suo
+
+# Build output
+bin/
+obj/
+Debug/
+Release/
+
+# Test output
+TestResults/
+
+# NuGet
+*.nupkg
+packages/
+
+# Editor / OS
+*.log
+*.cache
+Thumbs.db
+"@ | Out-File -Encoding UTF8 .gitignore
